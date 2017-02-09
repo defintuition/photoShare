@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58D933AF82D376FCA4036F8D /* Pods_Hipstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670351DB6FD452CBC56E4F77 /* Pods_Hipstagram.framework */; };
+		703DF1B51E4B9A66004BCE9E /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703DF1B41E4B9A66004BCE9E /* UITextField+Extensions.swift */; };
+		703DF1B71E4BA512004BCE9E /* ThumbNailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703DF1B61E4BA512004BCE9E /* ThumbNailCollectionViewCell.swift */; };
+		706CDF181E4AA717007BA450 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CDF171E4AA717007BA450 /* TagCollectionViewCell.swift */; };
+		706CDF1A1E4B85F6007BA450 /* largePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CDF191E4B85F6007BA450 /* largePhotoCollectionViewCell.swift */; };
+		9C0602BC1E4BCA6400D5EE94 /* PhotoLibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0602BB1E4BCA6400D5EE94 /* PhotoLibraryCollectionViewCell.swift */; };
+		9C0602BE1E4BCA7800D5EE94 /* Date Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0602BD1E4BCA7800D5EE94 /* Date Extension.swift */; };
+		9C0602C01E4BCB1300D5EE94 /* Hipstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0602BF1E4BCB1300D5EE94 /* Hipstagram.swift */; };
+		9C359CC51E491D600012A30C /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C359CC41E491D600012A30C /* CategoriesTableViewController.swift */; };
+		9C359CC71E4923ED0012A30C /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C359CC61E4923ED0012A30C /* CategoriesTableViewCell.swift */; };
+		9C359CCE1E4985990012A30C /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C359CCD1E4985990012A30C /* LogOutViewController.swift */; };
+		9C359CD21E4A37EC0012A30C /* DetailCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C359CD11E4A37EB0012A30C /* DetailCategoryCollectionViewController.swift */; };
+		9C359CD41E4A67A30012A30C /* DetailCategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C359CD31E4A67A30012A30C /* DetailCategoriesCollectionViewCell.swift */; };
+		9C529E881E4AE21C0046255A /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C529E871E4AE21C0046255A /* PhotoDetailViewController.swift */; };
+		9C529E8A1E4AE9110046255A /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C529E891E4AE9110046255A /* PhotosTableViewCell.swift */; };
+		9C8E81C41E4BBF49006758EF /* SecondDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E81C31E4BBF49006758EF /* SecondDetailCollectionViewCell.swift */; };
+		9C8E81C61E4C1B73006758EF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E81C51E4C1B73006758EF /* HomeViewController.swift */; };
+		9C8E81C81E4C1CF5006758EF /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E81C71E4C1CF5006758EF /* Users.swift */; };
+		9C8E81CA1E4C2935006758EF /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E81C91E4C2935006758EF /* UIImage + Extension.swift */; };
+		9CC558A01E48ECE900F31212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5589F1E48ECE900F31212 /* AppDelegate.swift */; };
+		9CC558A71E48ECEA00F31212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC558A61E48ECEA00F31212 /* Assets.xcassets */; };
+		9CC558AA1E48ECEA00F31212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC558A81E48ECEA00F31212 /* LaunchScreen.storyboard */; };
+		9CC558B21E48F09F00F31212 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CC558B11E48F09F00F31212 /* GoogleService-Info.plist */; };
+		9CC558B41E48F0F300F31212 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC558B31E48F0F300F31212 /* LoginViewController.swift */; };
+		9CC558B91E49090800F31212 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC558B81E49090800F31212 /* UserViewController.swift */; };
+		9CC558BB1E49091600F31212 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC558BA1E49091600F31212 /* UploadViewController.swift */; };
+		B9670E2C1E4BEFD400628474 /* LoginViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9670E2B1E4BEFD400628474 /* LoginViewController+Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D881CE5481B5B2FA299A862 /* Pods-Hipstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hipstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hipstagram/Pods-Hipstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		670351DB6FD452CBC56E4F77 /* Pods_Hipstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hipstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		703DF1B41E4B9A66004BCE9E /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+Extensions.swift"; path = "Hipstagram/UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		703DF1B61E4BA512004BCE9E /* ThumbNailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbNailCollectionViewCell.swift; sourceTree = "<group>"; };
+		706CDF171E4AA717007BA450 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		706CDF191E4B85F6007BA450 /* largePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = largePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		8AB6CB6AA7DC9E1E4F8EAA3C /* Pods-Hipstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hipstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hipstagram/Pods-Hipstagram.release.xcconfig"; sourceTree = "<group>"; };
+		9C0602BB1E4BCA6400D5EE94 /* PhotoLibraryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C0602BD1E4BCA7800D5EE94 /* Date Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date Extension.swift"; path = "Hipstagram/Date Extension.swift"; sourceTree = "<group>"; };
+		9C0602BF1E4BCB1300D5EE94 /* Hipstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hipstagram.swift; sourceTree = "<group>"; };
+		9C359CC41E491D600012A30C /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		9C359CC61E4923ED0012A30C /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		9C359CCB1E4985500012A30C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9C359CCD1E4985990012A30C /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		9C359CD11E4A37EB0012A30C /* DetailCategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		9C359CD31E4A67A30012A30C /* DetailCategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C529E871E4AE21C0046255A /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		9C529E891E4AE9110046255A /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		9C8E81C31E4BBF49006758EF /* SecondDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C8E81C51E4C1B73006758EF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C8E81C71E4C1CF5006758EF /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9C8E81C91E4C2935006758EF /* UIImage + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		9CC5589C1E48ECE900F31212 /* Hipstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hipstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC5589F1E48ECE900F31212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CC558A61E48ECEA00F31212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CC558A91E48ECEA00F31212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CC558AB1E48ECEA00F31212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC558B11E48F09F00F31212 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9CC558B31E48F0F300F31212 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9CC558B81E49090800F31212 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		9CC558BA1E49091600F31212 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		B9670E2B1E4BEFD400628474 /* LoginViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginViewController+Helper.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CC558991E48ECE900F31212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D933AF82D376FCA4036F8D /* Pods_Hipstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B4BC0A49D2757F1C26CF18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D881CE5481B5B2FA299A862 /* Pods-Hipstagram.debug.xcconfig */,
+				8AB6CB6AA7DC9E1E4F8EAA3C /* Pods-Hipstagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		360CAACC1A068A2943B4C495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670351DB6FD452CBC56E4F77 /* Pods_Hipstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C359CCA1E4981A10012A30C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C0602BF1E4BCB1300D5EE94 /* Hipstagram.swift */,
+				9C8E81C71E4C1CF5006758EF /* Users.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9C529E861E4AE12D0046255A /* main frame  */ = {
+			isa = PBXGroup;
+			children = (
+				9C359CC41E491D600012A30C /* CategoriesTableViewController.swift */,
+				9C359CC61E4923ED0012A30C /* CategoriesTableViewCell.swift */,
+				9C359CD11E4A37EB0012A30C /* DetailCategoryCollectionViewController.swift */,
+				9C359CD31E4A67A30012A30C /* DetailCategoriesCollectionViewCell.swift */,
+				9C8E81C31E4BBF49006758EF /* SecondDetailCollectionViewCell.swift */,
+				9C529E871E4AE21C0046255A /* PhotoDetailViewController.swift */,
+				9C529E891E4AE9110046255A /* PhotosTableViewCell.swift */,
+			);
+			name = "main frame ";
+			sourceTree = "<group>";
+		};
+		9CC558931E48ECE900F31212 = {
+			isa = PBXGroup;
+			children = (
+				703DF1B41E4B9A66004BCE9E /* UITextField+Extensions.swift */,
+				9C8E81C91E4C2935006758EF /* UIImage + Extension.swift */,
+				9C0602BD1E4BCA7800D5EE94 /* Date Extension.swift */,
+				9CC5589E1E48ECE900F31212 /* Hipstagram */,
+				9CC5589D1E48ECE900F31212 /* Products */,
+				04B4BC0A49D2757F1C26CF18 /* Pods */,
+				360CAACC1A068A2943B4C495 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC5589D1E48ECE900F31212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC5589C1E48ECE900F31212 /* Hipstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC5589E1E48ECE900F31212 /* Hipstagram */ = {
+			isa = PBXGroup;
+			children = (
+				9CC5589F1E48ECE900F31212 /* AppDelegate.swift */,
+				9C359CCA1E4981A10012A30C /* Models */,
+				9CC558B71E4908E700F31212 /* UI */,
+				9CC558B51E48F0F900F31212 /* View Controller */,
+				9CC558B61E48F10200F31212 /* Helper */,
+			);
+			path = Hipstagram;
+			sourceTree = "<group>";
+		};
+		9CC558B51E48F0F900F31212 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C0602BB1E4BCA6400D5EE94 /* PhotoLibraryCollectionViewCell.swift */,
+				9C529E861E4AE12D0046255A /* main frame  */,
+				9CC558B31E48F0F300F31212 /* LoginViewController.swift */,
+				B9670E2B1E4BEFD400628474 /* LoginViewController+Helper.swift */,
+				9C359CCB1E4985500012A30C /* RegisterViewController.swift */,
+				9C359CCD1E4985990012A30C /* LogOutViewController.swift */,
+				9CC558B81E49090800F31212 /* UserViewController.swift */,
+				9CC558BA1E49091600F31212 /* UploadViewController.swift */,
+				706CDF191E4B85F6007BA450 /* largePhotoCollectionViewCell.swift */,
+				703DF1B61E4BA512004BCE9E /* ThumbNailCollectionViewCell.swift */,
+				706CDF171E4AA717007BA450 /* TagCollectionViewCell.swift */,
+				9C8E81C51E4C1B73006758EF /* HomeViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		9CC558B61E48F10200F31212 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9CC558AB1E48ECEA00F31212 /* Info.plist */,
+				9CC558B11E48F09F00F31212 /* GoogleService-Info.plist */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		9CC558B71E4908E700F31212 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9CC558A81E48ECEA00F31212 /* LaunchScreen.storyboard */,
+				9CC558A61E48ECEA00F31212 /* Assets.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CC5589B1E48ECE900F31212 /* Hipstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC558AE1E48ECEA00F31212 /* Build configuration list for PBXNativeTarget "Hipstagram" */;
+			buildPhases = (
+				573FD20816BED7B979CEC6E5 /* [CP] Check Pods Manifest.lock */,
+				9CC558981E48ECE900F31212 /* Sources */,
+				9CC558991E48ECE900F31212 /* Frameworks */,
+				9CC5589A1E48ECE900F31212 /* Resources */,
+				ECA149A3075ADF00EC6BFDB1 /* [CP] Embed Pods Frameworks */,
+				1FCAA5CB33FEE7FA0E2BFECF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hipstagram;
+			productName = Hipstagram;
+			productReference = 9CC5589C1E48ECE900F31212 /* Hipstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CC558941E48ECE900F31212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Annie Tung";
+				TargetAttributes = {
+					9CC5589B1E48ECE900F31212 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9F7X637BX9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9CC558971E48ECE900F31212 /* Build configuration list for PBXProject "Hipstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CC558931E48ECE900F31212;
+			productRefGroup = 9CC5589D1E48ECE900F31212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CC5589B1E48ECE900F31212 /* Hipstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CC5589A1E48ECE900F31212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC558AA1E48ECEA00F31212 /* LaunchScreen.storyboard in Resources */,
+				9CC558B21E48F09F00F31212 /* GoogleService-Info.plist in Resources */,
+				9CC558A71E48ECEA00F31212 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCAA5CB33FEE7FA0E2BFECF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hipstagram/Pods-Hipstagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		573FD20816BED7B979CEC6E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA149A3075ADF00EC6BFDB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hipstagram/Pods-Hipstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CC558981E48ECE900F31212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC558B41E48F0F300F31212 /* LoginViewController.swift in Sources */,
+				9CC558BB1E49091600F31212 /* UploadViewController.swift in Sources */,
+				9C359CD21E4A37EC0012A30C /* DetailCategoryCollectionViewController.swift in Sources */,
+				703DF1B51E4B9A66004BCE9E /* UITextField+Extensions.swift in Sources */,
+				B9670E2C1E4BEFD400628474 /* LoginViewController+Helper.swift in Sources */,
+				9C8E81C61E4C1B73006758EF /* HomeViewController.swift in Sources */,
+				9CC558B91E49090800F31212 /* UserViewController.swift in Sources */,
+				703DF1B71E4BA512004BCE9E /* ThumbNailCollectionViewCell.swift in Sources */,
+				9C0602BE1E4BCA7800D5EE94 /* Date Extension.swift in Sources */,
+				706CDF181E4AA717007BA450 /* TagCollectionViewCell.swift in Sources */,
+				9C8E81C81E4C1CF5006758EF /* Users.swift in Sources */,
+				9C8E81C41E4BBF49006758EF /* SecondDetailCollectionViewCell.swift in Sources */,
+				706CDF1A1E4B85F6007BA450 /* largePhotoCollectionViewCell.swift in Sources */,
+				9C0602BC1E4BCA6400D5EE94 /* PhotoLibraryCollectionViewCell.swift in Sources */,
+				9C359CCE1E4985990012A30C /* LogOutViewController.swift in Sources */,
+				9C8E81CA1E4C2935006758EF /* UIImage + Extension.swift in Sources */,
+				9C529E881E4AE21C0046255A /* PhotoDetailViewController.swift in Sources */,
+				9CC558A01E48ECE900F31212 /* AppDelegate.swift in Sources */,
+				9C359CC51E491D600012A30C /* CategoriesTableViewController.swift in Sources */,
+				9C529E8A1E4AE9110046255A /* PhotosTableViewCell.swift in Sources */,
+				9C359CC71E4923ED0012A30C /* CategoriesTableViewCell.swift in Sources */,
+				9C0602C01E4BCB1300D5EE94 /* Hipstagram.swift in Sources */,
+				9C359CD41E4A67A30012A30C /* DetailCategoriesCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CC558A81E48ECEA00F31212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC558A91E48ECEA00F31212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CC558AC1E48ECEA00F31212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CC558AD1E48ECEA00F31212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CC558AF1E48ECEA00F31212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D881CE5481B5B2FA299A862 /* Pods-Hipstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F7X637BX9;
+				INFOPLIST_FILE = Hipstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tung.annie.c4q.Hipstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9CC558B01E48ECEA00F31212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB6CB6AA7DC9E1E4F8EAA3C /* Pods-Hipstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F7X637BX9;
+				INFOPLIST_FILE = Hipstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tung.annie.c4q.Hipstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CC558971E48ECE900F31212 /* Build configuration list for PBXProject "Hipstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC558AC1E48ECEA00F31212 /* Debug */,
+				9CC558AD1E48ECEA00F31212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC558AE1E48ECEA00F31212 /* Build configuration list for PBXNativeTarget "Hipstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC558AF1E48ECEA00F31212 /* Debug */,
+				9CC558B01E48ECEA00F31212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CC558941E48ECE900F31212 /* Project object */;
+}

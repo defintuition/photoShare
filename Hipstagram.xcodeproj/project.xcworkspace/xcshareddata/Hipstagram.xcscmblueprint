@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "04C12396A66BB19FECE0C7379C9B97F27A925A3D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "34C99EC4657D730267A707C2FE7D9CC7F83D83B6" : 9223372036854775807,
+    "04C12396A66BB19FECE0C7379C9B97F27A925A3D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C434A0C1-6009-4375-89D9-12B0562A6BBA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "34C99EC4657D730267A707C2FE7D9CC7F83D83B6" : "",
+    "04C12396A66BB19FECE0C7379C9B97F27A925A3D" : "AC3.2-U6-Hipstagram\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hipstagram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hipstagram.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/C4Q\/AC3.2-U6-Hipstagram.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04C12396A66BB19FECE0C7379C9B97F27A925A3D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/defintuition\/Battleship.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34C99EC4657D730267A707C2FE7D9CC7F83D83B6"
+    }
+  ]
+}
